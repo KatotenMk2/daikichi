@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>大吉</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
+    <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- header -->
+    <header class="header">
+        <div class="container --large">
+            <div class="header__inner">
+                <div class="header__left">
+                    <div class="header__logo">
+                        <h1><span class="red">大吉</span></h1>
+                    </div>
+                </div>
+                <div class="header__right">
+                    <div class="header__menu">
+                        <a href="#bigi">初めての方へ</a>
+                        <a href="#pur">買取品目</a>
+                        <a href="#pro">買取について</a>
+                        <a href="#con">
+                            <i class="fa-regular fa-file-lines"></i><br>
+                            無料査定
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__main">
+            <h2>大吉の安心安早くて納得！<br>０円査定！</h2>
+            <img src="image/telephone_card.png" alt="">
+            <h2>どこよりも高く買取いたします！</h2>
+        </div>
+    </header>
+
+    <!-- beginners 初めての方へ -->
+    <section class="beginners" id="bigi">
+        <div class="container">
+            <div class="beginners__inner">
+                <h1>初めての方へ</h1>
+                <p>
+                    大吉は、みなさんが大切にしていたものを適正価格で買い取りたい。<br>
+                    そんな想いを込めて親切、丁寧をモットーに買取を行っています。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- selling point 選ばれる理由 -->
+    <section class="selling-point">
+        <div class="container">
+            <div class="selling-point__inner">
+                <div class="selling-point__content">
+                    <h2>大吉が選ばれる理由</h2>
+                    <h3>確かな査定で満足度が高い</h3>
+                    <div class="selling-point__contents">
+                        <div class="selling-point__cause">
+                            <h4>POINT1</h4>
+                            <img src="image/point_1.png" alt="">
+                            <h4>お客様負担なし！</h4>
+                        </div>
+                        <div class="selling-point__cause">
+                            <h4>POINT2</h4>
+                            <img src="image/point_2.png" alt="">
+                            <h4>高価買取！</h4>
+                        </div>
+                        <div class="selling-point__cause">
+                            <h4>POINT3</h4>
+                            <img src="image/point_3.png" alt="">
+                            <h4>確かな査定！</h4>
+                        </div>
+                        <div class="selling-point__cause">
+                            <h4>POINT4</h4>
+                            <img src="image/point_4.png" alt="">
+                            <h4>幅広い買取サービス！</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- purchase 買取アイテム -->
+    <section class="purchase" id="pur">
+        <div class="container">
+            <div class="purchase__title">
+                <h1>買取アイテム一覧</h1>
+                <p>大吉では様々なお品物を買取しています！</p>
+            </div>
+            <div class="purchase__inner">
+                <div class="purchase__item">
+                    <img src="image/fashion_watch.png" alt="">
+                    <h5>腕時計</h5>
+                </div>
+                <div class="purchase__item">
+                    <img src="image/gold_kinkai_nobebou.png" alt="">
+                    <h5>貴金属</h5>
+                </div>
+                <div class="purchase__item">
+                    <img src="image/money_wadoukaichin_wadoukaihou.png" alt="">
+                    <h5>古銭</h5>
+                </div>
+                <div class="purchase__item">
+                    <img src="image/music_ukulele.png" alt="">
+                    <h5>楽器</h5>
+                </div>
+                <div class="purchase__item">
+                    <img src="image/portable_game.png" alt="">
+                    <h5>ゲーム</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- procedure 売却手順 -->
+    <section class="procedure" id="pro">
+        <div class="container">
+            <div class="procedure__inner">
+                <div class="step0">
+                    <h2>大吉の買取簡単</h2>
+                    <h3><span>4</span>ステップ</h3>
+                    <p>
+                        大吉の出張買取は、1点からでもブランド・ノーブランドでも古くてもなんでもOK!<br>
+                        出張費、お見積り費、査定料はすべて無料！<br>
+                        お部屋に眠っている“宝物”を探してみませんか？
+                    </p>
+                </div>
+                <div class="step">
+                    <div class="step__left">
+                        <h3>STEP</h3>
+                        <h1>01</h1>
+                        <i class="fa-solid fa-envelope-open-text"></i>
+                    </div>
+                    <div class="step__right">
+                        <h2>電話・メールでお申込みください</h2>
+                        <p>電話またはメールにてお申込みください。査定希望日・時間帯・住所をお知らせください</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step__left">
+                        <h3>STEP</h3>
+                        <h1>02</h1>
+                        <i class="fa-solid fa-user-tie"></i>
+                    </div>
+                    <div class="step__right">
+                        <h2>査定員の訪問・ご自宅での査定</h2>
+                        <p>弊社が設定した厳しい基準・コンプライアンスをクリアした査定員がお伺いします。</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step__left">
+                        <h3>STEP</h3>
+                        <h1>03</h1>
+                        <i class="fa-solid fa-file-lines"></i>
+                    </div>
+                    <div class="step__right">
+                        <h2>ご成約後の契約内容確認</h2>
+                        <p>査定員が提示した買取金額に納得頂いた後、必要書類にご記入して頂きます。買取の際には、身分証明書の確認が義務付けられてます。</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step__left">
+                        <h3>STEP</h3>
+                        <h1>04</h1>
+                        <i class="fa-solid fa-money-bill"></i>
+                    </div>
+                    <div class="step__right">
+                        <h2>買取金額のお支払い</h2>
+                        <p>ご契約内容に納得いただけましたらその場で現金にて買取価格をお支払いさせていただきます。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- trip 出張買取エリア -->
+    <section class="trip">
+        <div class="container">
+            <div class="trip__inner">
+                <h1>出張買取対象エリア</h1>
+                <p>新潟県内</p>
+                <img src="image/niigata.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- 口コミ review -->
+    <section class="review">
+        <div class="container">
+            <div class="review__inner">
+                <div class="headline --center">
+                    <div class="headline__min">
+                        Review
+                    </div>
+                    <h2 class="headline__item">
+                        お客様からのお声をいただきました！
+                        <span class="headline__item --bold">口コミ</span>
+                    </h2>
+                </div>
+                <div class="review__voice">
+                    <div class="voice__left">
+                        <i class="fa-solid fa-person"></i>
+                        <div class="review__person">
+                            50代男性
+                        </div>
+                    </div>
+                    <div class="voice__right">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint numquam corrupti ratione amet, vero soluta culpa neque, unde omnis quidem ea. Possimus dolorem quisquam eaque corporis assumenda magnam, architecto nostrum!
+                    </div>
+                </div>
+                <div class="review__voice">
+                    <div class="voice__left">
+                        <i class="fa-solid fa-person"></i>
+                        <div class="review__person">
+                            50代男性
+                        </div>
+                    </div>
+                    <div class="voice__right">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint numquam corrupti ratione amet, vero soluta culpa neque, unde omnis quidem ea. Possimus dolorem quisquam eaque corporis assumenda magnam, architecto nostrum!
+                    </div>
+                </div>
+                <div class="review__voice">
+                    <div class="voice__left">
+                        <i class="fa-solid fa-person"></i>
+                        <div class="review__person">
+                            50代男性
+                        </div>
+                    </div>
+                    <div class="voice__right">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint numquam corrupti ratione amet, vero soluta culpa neque, unde omnis quidem ea. Possimus dolorem quisquam eaque corporis assumenda magnam, architecto nostrum!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Q&A faq -->
+    <section class="faq">
+        <div class="container">
+          <div class="headline --center">
+            <div class="headline__min">
+              FAQ
+            </div>
+            <h2 class="headline__item">
+              細かな質問をまとめました！
+              <span class="headline__item --bold">よくある質問</span>
+            </h2>
+          </div>
+          
+          <div class="faq__items">
+            <div class="faq__item">
+              <div class="faq__q">
+                <div class="faq__q--icon">Q</div>
+                <div class="faq__q--text">査定は資格はあるのですか？</div>
+              </div>
+              <div class="faq__a">
+                <div class="faq__a--inner">
+                  <div class="faq__a--icon">A</div>
+                  <div class="faq__a--text">あります<br>
+                    全職員が有資格者です。</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="faq__items">
+            <div class="faq__item">
+              <div class="faq__q">
+                <div class="faq__q--icon">Q</div>
+                <div class="faq__q--text">査定は資格はあるのですか？</div>
+              </div>
+              <div class="faq__a">
+                <div class="faq__a--inner">
+                  <div class="faq__a--icon">A</div>
+                  <div class="faq__a--text">あります<br>
+                    全職員が有資格者です。</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+    </section>
+
+
+    <!-- お問合わせ contact -->
+    <section class="contact" id="con">
+        <div class="container">
+            <div class="contact__title">
+                <h1>お問い合わせ</h1>
+                <p>
+                    以下の項目にご記入いただき送信してください<br>
+                    折り返し担当者よりご連絡いたします。お急ぎの方はお電話にてご連絡ください。
+                </p>
+            </div>
+            <div class="contact__maintitle">
+                無料査定お申し込みフォーム
+            </div>
+            <div class="contact__inner">
+                <div class="contact__left">
+                    お名前
+                </div>
+                <form action="example" method="post" name="contact-name">
+                    <input type="text" placeholder="お名前を入力してください" class="contact1">
+                </form>
+            </div>
+            <div class="contact__inner">
+                <div class="contact__left">
+                    フリガナ
+                </div>
+                <form action="example" method="post" name="contact-furigana">
+                    <input type="text" placeholder="フリガナを入力してください" class="contact1">
+                </form>
+            </div>
+            <div class="contact__inner">
+                <div class="contact__left">
+                    電話番号
+                </div>
+                <form action="example" method="post" name="contact-tel">
+                    <input type="tel" placeholder="電話番号を入力してください" class="contact1">                    
+                </form>
+            </div>
+            <div class="contact__inner">
+                <div class="contact__left">
+                    メールアドレス
+                </div>
+                <form action="example" method="post" name="contact-mail">
+                    <input type="email" placeholder="メールアドレスを入力してください" class="contact1">
+                </form>
+            </div>
+            <div class="contact__inner">
+                <div class="contact__left">
+                    お問い合わせ種別
+                </div>
+                <form action="example" method="post" name="contact-tel" class="contact2">
+                    <input type="radio" name="request" value="出張買取">出張買取                        
+                    <input type="radio" name="request" value="相場を知りたい">相場を知りたい
+                    <input type="radio" name="request" value="その他">その他
+                </form>
+            </div>
+            <div class="contact__inner">
+                <div class="contact__left">
+                    自由記述欄
+                </div>
+                <textarea name="free" id="" cols="30" rows="10" placeholder="お問い合わせ内容を入力してください"></textarea>
+            </div>
+            <div class="contact__text">
+                ※お問い合わせから３営業日が経過しても返信がない場合には通信トラブル等が考えられます。<br>
+                その場合は大変お手数ですが、お問い合わせ内容を下記アドレスまでメールにてお送りください。
+            </div>
+            <div class="contact__add">
+                【お問い合わせ先メールアドレス】<br>
+                example@add.com
+            </div>
+            <div class="contact__text">
+                ※お客様からご提供いただいた個人情報は、弊社にて厳重に取り扱い致します。<br>
+                ※弊社の商品・サービスおよび関連情報をご提供する目的以外で無断利用することはありません。
+            </div>
+            <div class="submit">
+                <input type="submit" value="送信する" class="submit__inner">
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                Copyright © 大吉. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
