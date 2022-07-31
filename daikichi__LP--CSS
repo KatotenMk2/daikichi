@@ -1,0 +1,600 @@
+/*----------------------------------------------------------*/
+/* base */
+/*----------------------------------------------------------*/
+body {
+  font-family: 'Bitter', serif;
+  color: #212121;
+  font-size: 16px;
+  background-color: #F2E386;
+}
+  
+img {
+  width: 100%;
+  height: auto;
+}
+  
+.pc-br {
+  display: block;
+}
+@media screen and (max-width: 767px) {
+  .pc-br {
+    display: none;
+  }
+}
+
+
+/* headline */
+.headline{
+  text-align: left;
+  margin-bottom: 40px;
+}
+.headline__min{
+  margin-bottom: 15px;
+  font-size: 17px;
+  line-height: 1.2;
+  letter-spacing: 0.8px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.headline.--center .headline__min{
+  justify-content: center;
+}
+  
+.headline__min::before{
+  content: "";
+  width: 14px;
+  height: 3.5px;
+  margin-right: 10px;
+  background: #3dcfd4;
+}
+  
+.headline__item{
+  text-align: left;
+  font-size: 27px;
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+}
+.headline.--center .headline__item{
+  text-align: center;
+}
+.headline__item.--bold{
+  font-weight: bold;
+  display: block;
+  margin-top: 5px;
+  font-size: 42px;
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+}
+
+
+/* container */
+.container{
+  max-width: 1120px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 95%;
+}
+.container.--large{
+  max-width: 1360px;
+  width: 98%;
+}
+
+
+/* header */
+
+.red{
+    color: red;
+    font-size: 42px;
+}
+
+.header__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__menu{
+    display: flex;
+    align-items: center;
+}
+
+.header__menu a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-weight: 600;
+    margin-right: 20px;
+    text-align: center;
+}
+.header__menu a:last-child{
+    font-size: 10px;
+    padding: 5px 20px;
+    color: white;
+    background-color: green;
+}
+.header__menu i{
+    font-size: 25px;
+}
+
+.header__main{
+    height: 80vh;
+    background-color: #F2D57E;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__main img{
+    max-height: 40vh;
+    max-width: 700px;
+
+}
+
+.header__main h2{
+    font-size: 50px;
+}
+
+@media screen and (max-width:767px){
+    .header__logo{
+        text-align: center;
+    }
+    .header__logo h1{
+        font-size: 32px;
+    }
+    .header__menu a{
+        font-size: 14px;
+    }
+    .header__menu a:last-child{
+        margin-right: 0;
+    }
+    .header__inner{
+        margin-bottom: 50px;
+    }
+
+    .header__main h2{
+        font-size: 26px;
+    }
+    .header__main h2:last-child{
+        font-size: 22px;
+    }
+}
+@media screen and (max-width:767px){
+
+}
+
+/* beginners 初めての方へ */
+
+.beginners{
+    margin-top: 80px;
+}
+
+.beginners__inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.beginners__inner h1{
+    font-size: 42px;
+    color: white;
+    font-weight: bold;
+}
+
+.beginners__inner p{
+    color: white;
+    font-size: 26px;
+    line-height: 1.5;
+}
+
+@media screen and (max-width:767px){
+    .beginners__inner h1{
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    .beginners__inner p{
+        font-size: 16px;
+    }
+}
+
+/* selling point */
+
+.selling-point{
+    margin-top: 150px;
+    background-color: antiquewhite;
+}
+
+.selling-point__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.selling-point__content h2, .selling-point__content h3{
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.selling-point__contents{
+    display: flex;
+    
+}
+
+.selling-point__cause{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15vw;
+    margin: 20px 20px;
+}
+
+.selling-point__cause img{
+    width: 100%;
+    height: 100%;
+}
+
+.selling-point__cause h4{
+    font-size: 26px;
+}
+
+@media screen and (max-width:767px){
+    .selling-point__content h2 .selling-point__content h3{
+        font-size: 20px;
+    }
+    .selling-point__contents{
+        display: block;
+    }
+    .selling-point__cause{
+        flex-direction: row;
+        justify-content: space-between;
+        width: 80vw;
+    }
+    .selling-point__cause h4{
+        font-size: 16px;
+        width: 250px;
+    }
+    .selling-point__cause:nth-child(3) h4{
+        font-size: 15px;
+    }
+    .selling-point__cause h4:nth-child(1){
+        font-size: 15px;
+    }
+    .selling-point__cause img{
+        width: 100px;
+        height: 100px;
+        margin-right: 20px;
+    }
+}
+
+/* purchase */
+
+.purchase{
+    margin-top: 100px;
+}
+
+.purchase__title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.purchase__title h1{
+    font-size: 42px;
+}
+
+.purchase__title p{
+    font-size: 28px;
+}
+
+.purchase__inner{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    column-gap: 30px;
+}
+
+.purchase__item{
+    width: 15vw;
+    height: 15vh;
+    background-color: lightgray;
+    text-align: center;
+}
+.purchase__item h5{
+    font-size: 22px;
+}
+
+.purchase__item img{
+    width: 100%;
+    height: 100%;
+}
+
+
+@media screen and (max-width:767px){
+    .purchase__title h1{
+        font-size: 26px;
+    }
+    .purchase__title p{
+        font-size: 16px;
+    }
+
+    .purchase__inner{
+        grid-template-columns: repeat(3,1fr);
+        gap: 50px 20px;
+    }
+
+    .purchase__item{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* 買取手順 procedure */
+
+.procedure{
+    margin-top: 200px;
+}
+
+.step0{
+    text-align: center;
+}
+.step0 h2{
+    font-size: 36px;
+}
+.step0 h3{
+    font-size: 36px;
+}
+.step0 span{
+    font-size: 48px;
+    font-weight: bold;
+}
+.step0 p{
+    font-size: 26px;
+}
+
+.step{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.step__left{
+    text-align: center;
+    width: 15%;
+    background-color: gray;
+    padding: 30px;
+}
+.step__left h3{
+    font-size: 36px;
+}
+.step__left h1{
+    font-size: 48px;
+}
+.step__left i{
+    font-size: 40px;
+}
+
+.step__right{
+    width: 80%;
+    background-color: lightgray;
+    padding: 10px 30px;
+}
+.step__right h2{
+    font-size: 38px;
+    font-weight: bold;
+}
+.step__right p{
+    font-size: 26px;
+}
+
+@media screen and (max-width:767px){
+    
+}
+
+
+/* trip 出張買取エリア */
+
+.trip{
+    text-align: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.trip h1,p{
+    font-size: 40px;
+}
+
+.trip__inner img{
+    width: 50%;
+}
+
+
+
+/* review 口コミ */
+
+.review{
+    margin-top: 200px;
+}
+
+.review__voice{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.voice__left{
+    width: 20%;
+    text-align: center;
+}
+.voice__left i{
+    font-size: 50px;
+}
+.voice__right{
+    width: 70%;
+}
+
+
+/* faq */
+.faq{
+    padding-bottom: 100px;
+    padding-top: 100px;
+    /*background-color: #f5f6f7;*/
+}
+.faq__items{
+   padding-top: 10px;
+}
+.faq__item{
+    background-color: white;
+    border-radius: 15px;
+}
+.faq__item + .faq__item{
+    margin-top: 20px;
+}
+.faq__q{
+    cursor: pointer;
+    padding: 22px 14px 18px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.faq__q::after{
+    content: "";
+    width: 64px;
+    height: 24px;
+    background-image: url(image/arrow-pc.svg);
+    background-position: center center;
+    transition: transform 0.2s;
+    margin-left: auto;
+}
+.-active .faq__q::after{
+    transform: rotate(-180deg);
+}
+  
+.faq__a--inner{
+    padding: 22px 14px 18px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.faq__q--icon,
+.faq__a--icon{
+    font-weight: bold;
+    font-size: 26px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.faq__q--icon{
+    color: red;
+}
+.faq__a--icon{
+    color: #728295;
+}
+.faq__q--text,
+.faq__a--text{
+    font-size: 21px;
+    line-height: 1.5;
+    width: 85%;
+    letter-spacing: 0.8;
+}
+.faq__a{
+    display: none;
+}
+
+/* お問い合わせ contact */
+
+.contact{
+    background-color: white;
+    padding: 100px 0;
+}
+
+.contact__title{
+    text-align: center;
+}
+.contact__title h1{
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.contact__title p{
+    font-size: 26px;
+}
+
+.contact__maintitle{
+    margin-top: 20px;
+    text-align: center;
+    background-color: orange;
+    color: white;
+    font-size: 32px;
+    padding: 10px 0;
+}
+
+.contact__inner{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.contact__left{
+    width: 20%;
+    
+}
+
+.contact1{
+    border: 1px solid;
+    width: 600px;
+    height: 30px;
+}
+.contact2{
+    width: 600px;
+    height: 30px;
+}
+
+textarea{
+    width: 600px;
+    border: 1px solid;
+}
+
+.submit{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.submit__inner{
+    padding: 15px 100px;
+    background-color: #F2D57E;
+    border: 1px solid #F2D57E;
+    transition: 0.3s;
+}
+.submit__inner:hover{
+    background-color: white;
+    color: #F2D57E;
+}
+
+.contact__text{
+    text-align: center;
+    margin-top: 50px;
+}
+.contact__add{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* footer */
+.footer{
+    height: 100px;
+}
+
+.footer__inner{
+    text-align: center;
+}
