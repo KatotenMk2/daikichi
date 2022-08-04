@@ -17,31 +17,58 @@
     <!-- header -->
     <header class="header">
         <div class="container --large">
-            <div class="header__inner">
-                <div class="header__left">
-                    <div class="header__logo">
-                        <h1><span class="red">大吉</span></h1>
+            <div class="header__fixed">
+                <div class="header__inner">
+                    <div class="header__left">
+                        <div class="header__logo">
+                            大吉
+                        </div>
+                    </div>
+                    <div class="header__right">
+                        <div class="header__menu">
+                            <a href="#bigi">初めての方へ</a>
+                            <a href="#pur">買取品目</a>
+                            <a href="#pro">買取について</a>
+                            <a href="#con">
+                                <i class="fa-regular fa-file-lines"></i><br>
+                                無料査定
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div class="header__right">
-                    <div class="header__menu">
-                        <a href="#bigi">初めての方へ</a>
-                        <a href="#pur">買取品目</a>
-                        <a href="#pro">買取について</a>
-                        <a href="#con">
+                <div class="header__toggle">
+                    <div class="headertoggle__left">
+                        大吉
+                    </div>
+                    <div class="headertoggle__right">
+                        <a href="#con" id="toggle__assessment">
                             <i class="fa-regular fa-file-lines"></i><br>
                             無料査定
                         </a>
+                        <div class="openbtn1">
+                            <span></span><span></span><span></span>
+                        </div>
                     </div>
+                </div>
+                <div class="toggle__menu">
+                    <a href="#bigi">初めての方へ</a>
+                    <a href="#pur">買取品目</a>
+                    <a href="#pro">買取について</a>
                 </div>
             </div>
         </div>
-        <div class="header__main">
-            <h2>大吉の安心安早くて納得！<br>０円査定！</h2>
-            <img src="image/telephone_card.png" alt="">
-            <h2>どこよりも高く買取いたします！</h2>
-        </div>
     </header>
+
+    <section class="main">
+        <div class="container">
+            <div class="header__main">
+                <h2>大吉の安心安早くて納得！<br>０円査定！</h2>
+                <img src="image/telephone_card.png" alt="">
+                <h2>どこよりも高く買取いたします！</h2>
+            </div>
+        </div>
+    </section>
+
 
     <!-- beginners 初めての方へ -->
     <section class="beginners" id="bigi">
@@ -201,9 +228,6 @@
         <div class="container">
             <div class="review__inner">
                 <div class="headline --center">
-                    <div class="headline__min">
-                        Review
-                    </div>
                     <h2 class="headline__item">
                         お客様からのお声をいただきました！
                         <span class="headline__item --bold">口コミ</span>
@@ -251,9 +275,6 @@
     <section class="faq">
         <div class="container">
           <div class="headline --center">
-            <div class="headline__min">
-              FAQ
-            </div>
             <h2 class="headline__item">
               細かな質問をまとめました！
               <span class="headline__item --bold">よくある質問</span>
@@ -313,39 +334,39 @@
                 <div class="contact__left">
                     お名前
                 </div>
-                <form action="example" method="post" name="contact-name">
-                    <input type="text" placeholder="お名前を入力してください" class="contact1">
+                <form action="example" method="post" name="contact-name" class="contact1">
+                    <input type="text" placeholder="お名前を入力してください" class="contact2">
                 </form>
             </div>
             <div class="contact__inner">
                 <div class="contact__left">
                     フリガナ
                 </div>
-                <form action="example" method="post" name="contact-furigana">
-                    <input type="text" placeholder="フリガナを入力してください" class="contact1">
+                <form action="example" method="post" name="contact-furigana" class="contact1">
+                    <input type="text" placeholder="フリガナを入力してください" class="contact2">
                 </form>
             </div>
             <div class="contact__inner">
                 <div class="contact__left">
                     電話番号
                 </div>
-                <form action="example" method="post" name="contact-tel">
-                    <input type="tel" placeholder="電話番号を入力してください" class="contact1">                    
+                <form action="example" method="post" name="contact-tel" class="contact1">
+                    <input type="tel" placeholder="電話番号を入力してください" class="contact2">                    
                 </form>
             </div>
             <div class="contact__inner">
                 <div class="contact__left">
                     メールアドレス
                 </div>
-                <form action="example" method="post" name="contact-mail">
-                    <input type="email" placeholder="メールアドレスを入力してください" class="contact1">
+                <form action="example" method="post" name="contact-mail" class="contact1">
+                    <input type="email" placeholder="メールアドレスを入力してください" class="contact2">
                 </form>
             </div>
             <div class="contact__inner">
                 <div class="contact__left">
                     お問い合わせ種別
                 </div>
-                <form action="example" method="post" name="contact-tel" class="contact2">
+                <form action="example" method="post" name="contact-tel" class="radio">
                     <input type="radio" name="request" value="出張買取">出張買取                        
                     <input type="radio" name="request" value="相場を知りたい">相場を知りたい
                     <input type="radio" name="request" value="その他">その他
@@ -386,7 +407,7 @@
 
 
 
-
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="script.js"></script>
 </body>
