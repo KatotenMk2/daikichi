@@ -2,7 +2,7 @@
 /* base */
 /*----------------------------------------------------------*/
 body {
-  font-family: 'Bitter', serif;
+  font-family: 'Bitter','Sawarabi Mincho',serif;
   color: #212121;
   font-size: 16px;
   background-color: #F2E386;
@@ -179,15 +179,21 @@ img {
 }
 
 .header__main{
-    height: 80vh;
+    height: 70vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     justify-content: center;
+    background-image: url(./image/daikichi_top.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .main{
-    background-color: #F2D57E;
+    background-color: white;
+    margin-top: 50px;
 }
 
 .header__main img{
@@ -268,11 +274,8 @@ img {
         margin-bottom: 50px;
     }
 
-    .header__main h2{
-        font-size: 26px;
-    }
-    .header__main h2:last-child{
-        font-size: 22px;
+    .header__main{
+        height: 46vh;
     }
 
     .header__inner{
@@ -299,27 +302,33 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: gray;
+    background-color: white;
     padding: 50px 0;
     text-align: center;
 }
 
 .beginners__inner h1{
     font-size: 42px;
-    color: white;
     font-weight: bold;
 }
 
 .beginners__inner p{
-    color: white;
     font-size: 26px;
     line-height: 1.5;
 }
 
 @media screen and (max-width:767px){
+    .beginners{
+        margin-top: 40px;
+    }
+
+    .beginners__inner{
+        padding: 20px;
+    }
+    
     .beginners__inner h1{
-        font-size: 32px;
-        margin-bottom: 20px;
+        font-size: 25px;
+        margin-bottom: 10px;
     }
     .beginners__inner p{
         font-size: 16px;
@@ -329,8 +338,9 @@ img {
 /* selling point */
 
 .selling-point{
-    margin-top: 150px;
+    margin-top: 80px;
     background-color: antiquewhite;
+    padding: 30px 0;
 }
 
 .selling-point__content{
@@ -368,6 +378,11 @@ img {
 }
 
 @media screen and (max-width:767px){
+
+    .selling-point{
+        margin-top: 40px;
+    }
+    
     .selling-point__content h2 .selling-point__content h3{
         font-size: 20px;
     }
@@ -409,6 +424,7 @@ img {
 
 .purchase__title h1{
     font-size: 42px;
+    margin-bottom: 10px;
 }
 
 .purchase__title p{
@@ -443,6 +459,10 @@ img {
 
 
 @media screen and (max-width:767px){
+
+    .purchase{
+        margin-top: 40px;
+    }
     .purchase__title h1{
         font-size: 26px;
     }
@@ -475,6 +495,8 @@ img {
 }
 .step0 h3{
     font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .step0 span{
     font-size: 48px;
@@ -495,7 +517,7 @@ img {
     flex-direction: column;
     align-items: center;
     width: 15%;
-    background-color: gray;
+    background-color: white;
     padding: 30px;
 }
 .step__left h3{
@@ -510,7 +532,10 @@ img {
 
 .step__right{
     width: 80%;
-    background-color: lightgray;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 10px 30px;
 }
 .step__right h2{
@@ -525,12 +550,21 @@ img {
 
 @media screen and (max-width:767px){
 
+    .procedure{
+        margin-top: 40px;
+    }
+
     .step0 h2{
         font-size: 26px;
     }
 
     .step0 p{
         font-size: 16px;
+    }
+
+    .step__left{
+        justify-content: center;
+        align-items: center;
     }
 
     .step__left h1,.step__left h3,.step__left i{
@@ -553,6 +587,10 @@ img {
     text-align: center;
     align-items: center;
     margin-top: 200px;
+}
+
+.trip h1{
+    margin-bottom: 20px;
 }
 
 .trip h1,p{
@@ -694,7 +732,8 @@ img {
 }
 
 .contact__maintitle{
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
     text-align: center;
     background-color: orange;
     color: white;
